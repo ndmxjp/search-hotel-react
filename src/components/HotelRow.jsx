@@ -24,8 +24,8 @@ HotelRow.propTypes = {
   }).isRequired,
 };
 
-HotelRow.defaultProps = {
-  hotels: [],
-};
+// HotelRow.defaultProps = {
+//   hotels: [],
+// };
 
 export default HotelRow;

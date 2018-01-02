@@ -1,5 +1,5 @@
-import Rakuten from '../lib/Rakuten';
 import geolib from 'geolib';
+import Rakuten from '../lib/Rakuten';
 
 const RAKUTEN_APP_ID = '1028808782158042158';
 

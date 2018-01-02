@@ -13,7 +13,6 @@ class SearchPage extends Component {
   }
 
   render() {
-    console.log(this.props);
     return (
       <div className="search-page">
         <h1 className="app-title">ホテル検索</h1>

@@ -49,7 +49,7 @@ const geocodeResult = (
 const hotels = (state = [], action) => {
   switch (action.type) {
     case 'CHANGE_HOTELS':
-      return action.hotels
+      return action.hotels;
     default:
       return state;
   }
@@ -64,4 +64,9 @@ const sortKey = (state = 'price', action) => {
   }
 };
 
-export default combineReducers({ place, geocodeResult, hotels, sortKey });
+export default combineReducers({
+  place,
+  geocodeResult,
+  hotels,
+  sortKey,
+});

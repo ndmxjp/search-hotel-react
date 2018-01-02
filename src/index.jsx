@@ -6,7 +6,6 @@ import thunk from 'redux-thunk';
 import { composeWithDevTools } from 'redux-devtools-extension';
 
 import App from './components/App';
-import SearchPage from './components/SearchPage';
 import reducer from './reducers/';
 
 const store = createStore(
