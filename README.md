@@ -1,1 +1,1 @@
-udemy_react
+Hotel Search React
